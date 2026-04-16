@@ -3,8 +3,12 @@ AuthentiCuisine AI - Streamlit Interface (Research-Level)
 
 Interactive UI for evaluating restaurant review authenticity.
 """
+import sys
 import os
 import warnings
+
+# Adds the current directory to the python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Suppress Python warnings
 warnings.filterwarnings("ignore")
